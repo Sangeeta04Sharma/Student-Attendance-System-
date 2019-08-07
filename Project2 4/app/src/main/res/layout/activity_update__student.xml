@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.project2.Update_Student">
+
+
+    <CheckBox
+        android:layout_width="40dp"
+        android:id="@+id/checkbranch"
+        android:layout_height="50dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Branch"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/newbranch"/>
+
+    <CheckBox
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:id="@+id/checknumber"
+        android:layout_below="@id/checkbranch"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" new phone number"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/newnumber"
+        android:layout_below="@id/newbranch"/>
+
+    <CheckBox
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:id="@+id/checkyop"
+        android:layout_below="@id/checknumber"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="year of passing"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/updateyop"
+        android:layout_below="@id/newnumber"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rollnumber"
+        android:hint="Enter college id"
+        android:layout_below="@id/updateyop"
+        tools:ignore="InvalidId" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/update"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="40dp"
+        android:text="update data"/>
+
+
+</RelativeLayout>
